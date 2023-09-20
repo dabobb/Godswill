@@ -1,0 +1,65 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;1,100;1,200;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;0,8..144,400;1,8..144,100;1,8..144,200;1,8..144,300&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+    /* font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Serif', serif; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hero-section{
+    width: 100%;
+    height: 110vh;
+    border: 1px solid black;
+}
+
+
+.img{
+    width: 80%;
+    height: 100vh;
+    border: 1px solid black;
+    margin: 40px auto;
+    border-radius: 40px;
+    background-image: url(./images/delicious-pizza-isolated-white.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+}
+
+
+.hero-container{
+    width: 40%;
+    height: 100vh;
+    border: 1px solid black;
+}
+
+
+.circle{
+    width: 230px;
+    height: 230px;
+    /* border: 1px solid red; */
+    background-color: #99e54d;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 50%;
+    position: relative;
+}
+
+
+
+.text-area{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 40px;
+    left: 24%;
+}
